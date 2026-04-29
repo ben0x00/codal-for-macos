@@ -1,6 +1,6 @@
 # Official ARM GNU Embedded Toolchain path (macOS)
 if(CMAKE_HOST_APPLE) # Set location of ARM GNU Embedded Toolchain for macOS
-set(ARM_TOOLCHAIN_PATH "/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi")
+    set(ARM_TOOLCHAIN_PATH "/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi")
 endif()
 
 # Look for toolchain binaries in the official installation first, then system PATH
